@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+    id 'java-library'
+}
+
+group = 'com.thejianghuartist'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
