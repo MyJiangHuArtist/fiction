@@ -2,6 +2,7 @@ mybatis-plus:
   mapper-locations:  classpath:mapper/*.xml
   global-config:
     banner:  off
+  type-aliases-package:  com.thejianghuartist.pojo
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -14,6 +15,12 @@ spring:
     redis:
       host:  127.0.0.1
       port:  6379
+      database:  14
+  jackson:
+    date-format: yyyy-mm-dd HH:mm:ss
+    time-zone:  GMT+8
 logging:
   level:
      com.thejianghuartist.mapper: debug
+server:
+  port: 8081

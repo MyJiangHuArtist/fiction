@@ -5,7 +5,12 @@ plugins {
 
 group = 'com.thejianghuartist'
 version = '1.0-SNAPSHOT'
-
+subprojects {
+    //设置全局编译时编码
+    tasks.withType(JavaCompile) {
+        options.encoding = 'utf-8'
+    }
+}
 repositories {
     mavenCentral()
 }
