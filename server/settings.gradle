@@ -1,3 +1,0 @@
-//每一个gradle项目都只有一个settings.gradle 对应Settings类
-rootProject.name = 'fiction-server'
-include 'user-service'
