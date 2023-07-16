@@ -20,4 +20,5 @@
 + redis:7
 + elasticsearch:8.8.1
 + mybatis-plus:3.5.3.3
-## 声明一下这是一个单体架构的后台服务
+## 开发中
+
