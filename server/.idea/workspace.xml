@@ -5,41 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1733913d-211c-4527-8485-2645ebe16c3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/thejianghuartist/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/thejianghuartist/controller/SignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/thejianghuartist/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/thejianghuartist/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/thejianghuartist/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-core/src/main/java/com/thejianghuartist/annotaion/NotBlank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-core/src/main/java/com/thejianghuartist/util/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-core/src/main/java/com/thejianghuartist/util/REnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-core/src/main/java/com/thejianghuartist/util/Validation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-core/src/main/java/com/thejianghuartist/util/VerificationMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-core/src/main/java/com/thejianghuartist/util/verificationmethod/NotBlankVerificationMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/UserServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/config/MybatisPlusConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/config/WebMvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/dto/UserLoginDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/exception/ParameterIsInvalidException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/util/JWTUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/util/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/util/REnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/thejianghuartist/vo/UserVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/mapper/user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/thejianghuartist/UserServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/src/main/java/com/thejianghuartist/UserServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/thejianghuartist/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +35,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/user-server/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -85,20 +77,27 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/project/fiction/server/book-server/src/main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/project/fiction/server/user-server/src/main/java/com/thejianghuartist/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;11bf5fbfc5a19e8b4694e9a9ee1b25a2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d8248e68f1aa3383a4264c0ba74b9282&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\fiction\server\book-server\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserServerApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="server" />
       <method v="2">
@@ -108,6 +107,19 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="server" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="book-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thejianghuartist.BookServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thejianghuartist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,6 +140,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.UserServerApplication" />
+        <item itemvalue="Spring Boot.BookServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +154,20 @@
       <updated>1688911920929</updated>
       <workItem from="1688911922215" duration="2036000" />
       <workItem from="1688913974249" duration="3710000" />
-      <workItem from="1688920567874" duration="994000" />
+      <workItem from="1688920567874" duration="2649000" />
+      <workItem from="1688969343749" duration="1481000" />
+      <workItem from="1688979471888" duration="2415000" />
+      <workItem from="1688991745029" duration="968000" />
+      <workItem from="1689074174333" duration="69000" />
+      <workItem from="1689074521245" duration="319000" />
+      <workItem from="1689076047730" duration="3538000" />
+      <workItem from="1689168614216" duration="78000" />
+      <workItem from="1689257618456" duration="1179000" />
+      <workItem from="1689332954920" duration="618000" />
+      <workItem from="1689350845263" duration="507000" />
+      <workItem from="1689426330376" duration="201000" />
+      <workItem from="1689427881189" duration="5066000" />
+      <workItem from="1689436536408" duration="5000" />
     </task>
     <servers />
   </component>
@@ -155,11 +181,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/thejianghuartist/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/repo/org/springframework/spring-context/6.0.10/spring-context-6.0.10-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java</url>
-          <line>160</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

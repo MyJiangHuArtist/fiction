@@ -1,2 +1,16 @@
 server:
   port:  8099
+spring:
+  datasource:
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/fiction
+    username: root
+    password: root
+  application:
+    name: user-service
+  jackson:
+    time-zone:  GMT-8
+    date-format:  yyyy-MM-dd HH:mm:ss
+mybatis-plus:
+  global-config:
+    banner: off
